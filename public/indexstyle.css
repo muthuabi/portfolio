@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+@media screen and (min-width: 700px)
+{
+    h1
+    {
+        font-size: 30px;
+    }
+    .page1
+    {
+        width:700px;
+        height:500px;
+    }
+    .page2{
+        width:700px;
+        height:500px;
+    }
+}
+@keyframes example {
+    from{color: black;}
+    to{color: white;}   
+}
+html{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: rgb(224, 218, 159);
+}
+.page1{
+    display: block;
+    /* background-image: url("wallpaper3.jpg"); */
+    background-size: cover;
+    border-radius: 5px;
+    /* background-color: rgb(224, 218, 159); */
+    
+    margin-top:-4% ;
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+    height:100%;
+    width:100%;
+}
+.imgcontain{
+    position: absolute;
+    width:30%;
+    height:70%;
+}
+/* .imgcontain img
+{
+    
+    background-color: azure;
+    margin-left: 700px;
+    margin-top:85px;
+ width:120%;
+ height: 120%;  
+} */
+nav img{
+    position:flex;
+    
+    
+}
+nav ul{
+display:flex;
+    margin-top:3%;
+    
+}
+#svg
+{
+    height: 30px;
+    width:30px;
+}
+#top{
+    margin-top:10% ;
+    margin-left:2%;
+    position: fixed;
+    z-index: 2;
+}
+nav{
+    margin-top: 0px;
+    display: flex;
+    position: fixed;
+    justify-content:space-around;
+    text-decoration: none;
+    z-index: 10;
+}
+nav a{
+    opacity: 100%;
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+#top:hover
+{
+    border-radius: 15px;
+    color: aqua;
+    background-color:aqua;
+}
+nav ul li
+{  
+     margin-right: 5%;
+    width:25%;
+    display: inline-block;
+    list-style: none;
+}
+nav a:hover  {
+    transform: 2s;
+    color: rgb(180, 131, 131);
+    text-decoration: 4px underline red ;    
+}
+.temp{
+margin-top: 50px;
+}
+.content
+{
+    /* background-image: url("bg.png"); */
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 140px;
+    z-index: 1;
+}
+.content span
+{
+    color: rgb(241, 241, 241);
+}
+/* .imgcontain2
+{
+    position: absolute;
+   float: right;
+    margin-top:10px;
+    margin-left: 500px;
+    height: 45%;
+    width: 20%;  
+   
+} */
+/* .imgcontain2 img
+{
+    width: auto;
+    position: absolute;
+    transition: transform 5s;
+} */
+.temp{
+    z-index: 100;
+}
+
+.temp:hover h1{
+   
+    transition: 2s;
+    transform: rotate3d(10,5,15,360deg);
+    
+}
+.img3
+{   margin-top: 15px;
+    margin-left: 25px;
+    height: 520px;
+}
+
+.img2
+{
+   float: right;
+    width:650px;
+    height:620px;
+}
+.spider
+{
+    margin-top: -70px;
+    width: 350px;
+    height:450px;
+    float:right;
+}
+
+#navid.sticky
+{
+    background:black;
+    opacity: 75%;
+    
+}
+#navid.sticky a
+{
+    color:rgb(255, 255, 255);
+    opacity: 75%;
+    
+}
+nav
+{
+
+    border-radius: 5px;
+    width:100%;
+    /* opacity: 50%; */
+    /* background-color: aqua; */
+    height: 12%;
+    transition: transform 2s;
+   
+}
+.page2 h1{
+    color: black;
+    
+}
+.page2{
+    display: block;
+    color:antiquewhite;
+    /* background-image: url("bg8.jpg"); */
+    background-size: cover;
+    border-radius: 5px;
+    /* background-color: brown; */
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+    height:100%;
+    width:100%;
+}
+/* .page2{
+    background-color: brown;
+   position: relative;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    width:95%;
+} */
+#me
+{
+    color:chocolate;
+    text-decoration: 8px underline rgb(41, 115, 177);
+    margin-top: 100px;
+    margin-left: 199px;
+}
+
+.page4{
+    
+    display: block;
+    /* background-image: url("bg9.jpg"); */
+    border-radius: 5px;
+    /* background-color: rgb(255, 255, 255); */
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+    height:100%;
+    width:100%;
+}
+
+.subs
+{
+    margin-top:25px ;
+    margin-left: -130px;
+}
+.para
+{
+    position:absolute;
+    width:45%;
+    height: 75%;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.page3{
+    display: flex;
+    /* background-image: url("bg5.jpg"); */
+    border-radius: 5px;
+    /* background-color: rgb(150, 161, 46); */
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+    height:100%;
+    width:100%;
+    
+}
+.page3 h2{
+    font-size: medium;
+
+}
+.page3 i{
+    font-size:100px;
+}
+.page3 .c
+{
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 80px;
+    height:300px;
+    width:200px;
+    background-color: aqua;
+}
+.page3 .python
+{
+    margin-top: -200px;
+    position: absolute;
+    margin-left:700px;
+    
+    border-radius: 15px;
+    margin-top: 80px;
+    height:300px;
+    width:200px;
+    background-color: rgb(81, 195, 199);
+}
+
+.page3 .java
+{
+
+    position: absolute;
+    margin-left:400px;
+    border-radius: 15px;
+    margin-top: 200px;
+    height:300px;
+    width:200px;
+    background-color: rgb(253, 253, 253);
+}
+
+.page3 .html
+{
+    margin-top: 200px;
+    margin-left: 1000px;
+        position: absolute;
+        border-radius: 15px;
+        height:300px;
+        width:200px;
+        background-color: rgb(167, 164, 157);
+  
+      
+}
+.len
+{
+    margin-top: 20px;
+    width:100%;
+    height:20px;
+    
+    background-color: black;
+    
+}
+.len2
+{
+    margin-top: 20px;
+    border-radius: 5px;
+    width:0%;
+    height:15px;
+    background-color: black;
+    transition: width 2s;
+
+}
+.c:hover .len2
+{
+    width:58%;
+}
+.java:hover .len2
+{
+    width:45%;
+}
+.python:hover .len2
+{
+    width:55%;
+}
+.html:hover .len2
+{
+    width:25%;
+}
+
+@property --num{
+    syntax: '<integer>';
+    initial-value: 0;
+    inherits: false;
+  }
+  
+.c{
+    transition: --num 1s;
+    counter-reset: num var(--num);
+  }
+.c:hover {
+  --num: 58;
+}
+.c::after{
+  content: counter(num);
+} 
+.html{
+    transition: --num 1s;
+    counter-reset: num var(--num);
+  }
+.html:hover {
+  --num: 25;
+}
+.html::after {
+  content: counter(num);
+} 
+.java{
+    transition: --num 1s;
+    counter-reset: num var(--num);
+  }
+.java:hover {
+  --num: 45;
+}
+.java::after {
+  content: counter(num);
+} 
+.python{
+    transition: --num 1s;
+    counter-reset: num var(--num);
+  }
+.python:hover {
+  --num: 55;
+}
+.python::after {
+  content: counter(num);
+} 
+.con
+{
+    position: absolute;
+    
+    border-radius: 15px;
+   margin-top: 80px;
+    margin-left:270px ;
+    margin-right:50px ;
+    margin-bottom:20px ;
+    height: 50%;
+    width: auto;
+
+}
+.mail p{
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.phone p{
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.fb p{
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.insta p{
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.address p{
+    margin-left: 30px;
+}
+.page4 .address
+{
+    
+        position: absolute;
+        border-radius: 15px;
+        height:150px;
+        width:300px;
+        background-color: rgb(243, 190, 65);
+  
+}
+.page4 img
+{
+    opacity: 100%;
+    width:50px;
+    height:50px;
+}
+.page4 .phone
+{
+    
+        margin-top: 170px;
+        position: absolute;
+        border-radius: 15px;
+        height:50px;
+        width:300px;
+        background-color: rgb(236, 87, 18);
+  
+      
+}
+.page4 .mail
+{
+    margin-top: 240px;
+        position: absolute;
+        border-radius: 15px;
+        height:50px;
+        width:300px;
+        background-color: rgb(77, 255, 210);
+  
+      
+}
+.page4 .insta
+{
+    margin-top: 310px;
+        position: absolute;
+        border-radius: 15px;
+        height:50px;
+        width:300px;
+        background-color: rgb(77, 255, 210);
+  
+      
+}
+.page4 .fb
+{
+    margin-top: 380px;
+        position: absolute;
+        border-radius: 15px;
+        height:50px;
+        width:300px;
+        background-color: rgb(77, 255, 210);
+  
+      
+}
+iframe
+{
+    margin-top:100px;
+    margin-right: 40px;
+    float:right;
+    width:400px;
+    height: 400px;
+}
